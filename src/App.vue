@@ -2,6 +2,7 @@
 import {ref} from 'vue';
 import html2canvas from "html2canvas";
 
+document.title = 'Эквалайзер | Нечто';
 const sliders = ref({
   one: 50,
   two: 50,
